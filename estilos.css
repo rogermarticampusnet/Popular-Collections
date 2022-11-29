@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@400;700&display=swap');
+
+body {
+    background: #d8dae2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    background: #eff0f1;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2em;
+    position: relative;
+    height: 85%;
+}
+
+.topcircle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #e5e7f0;
+    position: absolute;
+    top: -100px;
+    right: 300px;
+    z-index: -1;
+}
+
+.botcircle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #e5e7f0;
+    position: absolute;
+    bottom: -100px;
+    left: 300px;
+    z-index: -1;
+}
+
+.general h1 {
+    font-family: 'Bree serif', serif;
+    margin: 1em;
+    margin-left: 1.3em;
+}
+
+.buttons {
+    margin: 1em;
+    margin-left: 3em;
+}
+
+.folder {
+    display: flex;
+    margin: 1em;
+    width: 90%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background: ghostwhite;
+    border-radius: 2em;
+    margin: 2em;
+    padding-top: 2em;
+    height: 70%;
+}
+
+.big {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.big img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+.small {
+    display: flex;
+    padding: .5em;
+}
+
+.pic {
+    margin: .5em;
+}
+
+.pic img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.downside {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+}
